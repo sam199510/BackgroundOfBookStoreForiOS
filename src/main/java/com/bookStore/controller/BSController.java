@@ -438,4 +438,12 @@ public class BSController {
 		
 		return "删除订单成功";
 	}
+	
+	//根据图书种类查找图书
+	@RequestMapping(value="findBookByBookType",method=RequestMethod.GET)
+	@ResponseBody
+	public List<Book> findBookByBookType(int type){
+		List<Book> books = this.bookService.findBookByBookType(type);
+		return books;
+	}
 }

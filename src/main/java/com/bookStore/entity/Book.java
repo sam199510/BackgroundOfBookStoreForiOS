@@ -24,6 +24,7 @@ public class Book {
 	@Column private long isbn;//书籍的ISBN
 	@Column private int repertory;//书籍的库存量
 	@Column private String cover;//书籍的封面
+	@Column private int type;//书籍的种类
 	
 	@Override
 	public String toString(){
@@ -100,6 +101,14 @@ public class Book {
 
 	public void setCover(String cover) {
 		this.cover = cover;
+	}
+
+	public int getType() {
+		return type;
+	}
+
+	public void setType(int type) {
+		this.type = type;
 	}
 	
 	

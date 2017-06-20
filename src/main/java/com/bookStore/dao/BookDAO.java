@@ -46,4 +46,12 @@ public class BookDAO {
 	public void updateBookRepertory(Book book){
 		this.sessionFactory.getCurrentSession().update(book);
 	}
+	
+	//根据图书的种类搜索图书
+	@SuppressWarnings("unchecked")
+	public List findBookByType(int type){
+		String hql = "from Book b where b.type = " + type;
+		Query query = sessionFactory.getCurrentSession().createQuery(hql);
+		return query.list();
+	}
 }

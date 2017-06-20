@@ -43,4 +43,10 @@ public class BookService {
 	public void updateBookRepertory(Book book){
 		this.bookDAO.updateBookRepertory(book);
 	}
+	
+	//根据图书的种类搜索图书
+	public List<Book> findBookByBookType(int type){
+		List<Book> books = this.bookDAO.findBookByType(type);
+		return books;
+	}
 }
