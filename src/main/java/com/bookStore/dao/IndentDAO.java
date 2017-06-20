@@ -53,7 +53,7 @@ public class IndentDAO {
 	//更具订单主键id找到订单详情的方法
 	@SuppressWarnings("unchecked")
 	public List getIndentDetailInfo(int indentId){
-		String hql = "from Indent i where i.id=" + indentId;
+		String hql = "from Indent i where i.id = " + indentId;
 		Query query = sessionFactory.getCurrentSession().createQuery(hql);
 		return query.list();
 	}

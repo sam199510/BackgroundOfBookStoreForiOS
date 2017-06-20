@@ -18890,3 +18890,159 @@ INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHan
 INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findBookByBookType.*] onto handler 'BSController'
 INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findBookByBookType/] onto handler 'BSController'
 INFO Timer-1 org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcher': initialization completed in 202 ms
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue Jun 20 21:11:48 CST 2017]; parent: Root WebApplicationContext
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Closing Root WebApplicationContext: startup date [Tue Jun 20 21:11:47 CST 2017]; root of context hierarchy
+INFO Timer-1 org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean -Closing Hibernate SessionFactory
+INFO Timer-1 org.hibernate.impl.SessionFactoryImpl -closing
+INFO Timer-1 org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Tue Jun 20 21:17:48 CST 2017]; root of context hierarchy
+INFO Timer-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from file [/Users/fei/Documents/EclipseWorkspace/J2EE/BookStoreForiOS/target/classes/applicationContext.xml]
+INFO Timer-1 org.springframework.beans.factory.config.PropertyPlaceholderConfigurer -Loading properties file from class path resource [config.properties]
+INFO Timer-1 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO Timer-1 org.springframework.jdbc.datasource.DriverManagerDataSource -Loaded JDBC driver: com.mysql.jdbc.Driver
+INFO Timer-1 org.hibernate.annotations.common.Version -Hibernate Commons Annotations 3.2.0.Final
+INFO Timer-1 org.hibernate.cfg.Environment -Hibernate 3.6.0.Final
+INFO Timer-1 org.hibernate.cfg.Environment -hibernate.properties not found
+INFO Timer-1 org.hibernate.cfg.Environment -Bytecode provider name : javassist
+INFO Timer-1 org.hibernate.cfg.Environment -using JDK 1.4 java.sql.Timestamp handling
+INFO Timer-1 org.hibernate.cfg.AnnotationBinder -Binding entity from annotated class: com.bookStore.entity.Book
+INFO Timer-1 org.hibernate.cfg.annotations.EntityBinder -Bind entity com.bookStore.entity.Book on table book
+INFO Timer-1 org.hibernate.cfg.AnnotationBinder -Binding entity from annotated class: com.bookStore.entity.Collection
+INFO Timer-1 org.hibernate.cfg.annotations.EntityBinder -Bind entity com.bookStore.entity.Collection on table collection
+INFO Timer-1 org.hibernate.cfg.AnnotationBinder -Binding entity from annotated class: com.bookStore.entity.Comment
+INFO Timer-1 org.hibernate.cfg.annotations.EntityBinder -Bind entity com.bookStore.entity.Comment on table comment
+INFO Timer-1 org.hibernate.cfg.AnnotationBinder -Binding entity from annotated class: com.bookStore.entity.Indent
+INFO Timer-1 org.hibernate.cfg.annotations.EntityBinder -Bind entity com.bookStore.entity.Indent on table indent
+INFO Timer-1 org.hibernate.cfg.AnnotationBinder -Binding entity from annotated class: com.bookStore.entity.User
+INFO Timer-1 org.hibernate.cfg.annotations.EntityBinder -Bind entity com.bookStore.entity.User on table user
+INFO Timer-1 org.hibernate.cfg.Configuration -Hibernate Validator not found: ignoring
+INFO Timer-1 org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean -Building new Hibernate SessionFactory
+INFO Timer-1 org.hibernate.cfg.search.HibernateSearchEventListenerRegister -Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+INFO Timer-1 org.hibernate.connection.ConnectionProviderFactory -Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+INFO Timer-1 org.hibernate.cfg.SettingsFactory -Database ->
+       name : MySQL
+    version : 5.7.18
+      major : 5
+      minor : 7
+INFO Timer-1 org.hibernate.cfg.SettingsFactory -Driver ->
+       name : MySQL Connector Java
+    version : mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )
+      major : 5
+      minor : 1
+INFO Timer-1 org.hibernate.dialect.Dialect -Using dialect: org.hibernate.dialect.MySQLDialect
+INFO Timer-1 org.hibernate.transaction.TransactionFactoryFactory -Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+INFO Timer-1 org.hibernate.transaction.TransactionManagerLookupFactory -No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+INFO Timer-1 org.hibernate.cfg.SettingsFactory -Automatic flush during beforeCompletion(): disabled
+INFO Timer-1 org.hibernate.cfg.SettingsFactory -Automatic session close at end of transaction: disabled
+INFO Timer-1 org.hibernate.cfg.SettingsFactory -JDBC batch size: 15
+INFO Timer-1 org.hibernate.cfg.SettingsFactory -JDBC batch updates for versioned data: disabled
+INFO Timer-1 org.hibernate.cfg.SettingsFactory -Scrollable result sets: enabled
+INFO Timer-1 org.hibernate.cfg.SettingsFactory -JDBC3 getGeneratedKeys(): enabled
+INFO Timer-1 org.hibernate.cfg.SettingsFactory -Connection release mode: auto
+INFO Timer-1 org.hibernate.cfg.SettingsFactory -Maximum outer join fetch depth: 2
+INFO Timer-1 org.hibernate.cfg.SettingsFactory -Default batch fetch size: 1
+INFO Timer-1 org.hibernate.cfg.SettingsFactory -Generate SQL with comments: disabled
+INFO Timer-1 org.hibernate.cfg.SettingsFactory -Order SQL updates by primary key: disabled
+INFO Timer-1 org.hibernate.cfg.SettingsFactory -Order SQL inserts for batching: disabled
+INFO Timer-1 org.hibernate.cfg.SettingsFactory -Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+INFO Timer-1 org.hibernate.hql.ast.ASTQueryTranslatorFactory -Using ASTQueryTranslatorFactory
+INFO Timer-1 org.hibernate.cfg.SettingsFactory -Query language substitutions: {}
+INFO Timer-1 org.hibernate.cfg.SettingsFactory -JPA-QL strict compliance: disabled
+INFO Timer-1 org.hibernate.cfg.SettingsFactory -Second-level cache: enabled
+INFO Timer-1 org.hibernate.cfg.SettingsFactory -Query cache: disabled
+INFO Timer-1 org.hibernate.cfg.SettingsFactory -Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+INFO Timer-1 org.hibernate.cfg.SettingsFactory -Optimize cache for minimal puts: disabled
+INFO Timer-1 org.hibernate.cfg.SettingsFactory -Structured second-level cache entries: disabled
+INFO Timer-1 org.hibernate.cfg.SettingsFactory -Echoing all SQL to stdout
+INFO Timer-1 org.hibernate.cfg.SettingsFactory -Statistics: disabled
+INFO Timer-1 org.hibernate.cfg.SettingsFactory -Deleted entity synthetic identifier rollback: disabled
+INFO Timer-1 org.hibernate.cfg.SettingsFactory -Default entity-mode: pojo
+INFO Timer-1 org.hibernate.cfg.SettingsFactory -Named query checking : enabled
+INFO Timer-1 org.hibernate.cfg.SettingsFactory -Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+INFO Timer-1 org.hibernate.impl.SessionFactoryImpl -building session factory
+INFO Timer-1 org.hibernate.impl.SessionFactoryObjectFactory -Not binding factory to JNDI, no JNDI name configured
+INFO Timer-1 org.springframework.orm.hibernate3.HibernateTransactionManager -Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@78e8613c] of Hibernate SessionFactory for HibernateTransactionManager
+INFO Timer-1 org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 990 ms
+INFO Timer-1 org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcher': initialization started
+INFO Timer-1 org.springframework.web.context.support.XmlWebApplicationContext -Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue Jun 20 21:17:49 CST 2017]; parent: Root WebApplicationContext
+INFO Timer-1 org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [dispatcher-servlet.xml]
+INFO Timer-1 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/login] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/login.*] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/login/] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllBooks] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllBooks.*] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllBooks/] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showBookDetailInfo] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showBookDetailInfo.*] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showBookDetailInfo/] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName.*] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName/] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/regist] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/regist.*] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/regist/] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/getUserCurrentAddress] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/getUserCurrentAddress.*] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/getUserCurrentAddress/] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateUserAddress] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateUserAddress.*] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateUserAddress/] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/getUserCurrentMobile] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/getUserCurrentMobile.*] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/getUserCurrentMobile/] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateUserMobile] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateUserMobile.*] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateUserMobile/] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserPassword] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserPassword.*] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserPassword/] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateUserPassword] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateUserPassword.*] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateUserPassword/] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkIsCollect] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkIsCollect.*] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkIsCollect/] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/collectBook] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/collectBook.*] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/collectBook/] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/cancelToCollectBook] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/cancelToCollectBook.*] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/cancelToCollectBook/] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showCollectBooks] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showCollectBooks.*] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showCollectBooks/] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/getDeliveredInfo] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/getDeliveredInfo.*] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/getDeliveredInfo/] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/getBookDetailInfo] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/getBookDetailInfo.*] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/getBookDetailInfo/] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/isPayPasswordRight] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/isPayPasswordRight.*] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/isPayPasswordRight/] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/createOrder] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/createOrder.*] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/createOrder/] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showIndent] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showIndent.*] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showIndent/] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkIsComment] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkIsComment.*] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkIsComment/] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/getIndentDetailInfo] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/getIndentDetailInfo.*] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/getIndentDetailInfo/] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/commentBook] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/commentBook.*] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/commentBook/] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/getCommentByBookID] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/getCommentByBookID.*] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/getCommentByBookID/] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteIndentByIndentId] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteIndentByIndentId.*] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteIndentByIndentId/] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findBookByBookType] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findBookByBookType.*] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/findBookByBookType/] onto handler 'BSController'
+INFO Timer-1 org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcher': initialization completed in 261 ms
