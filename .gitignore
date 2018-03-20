@@ -2,3 +2,5 @@
 .settings
 target
 .classpath
+LogFile.log
+logFile.log
